@@ -76,7 +76,6 @@
 			icon_state = "[temp_state]_scope"
 			return
 	else
-		var/obj/item/ammo_magazine/MAG
 		if (ammo_magazine && istype(MAG, /obj/item/ammo_magazine/ak101/drum))
 			icon_state = "[temp_state]_drum"
 			item_state = temp_state
